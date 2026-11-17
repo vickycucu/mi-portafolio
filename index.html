@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Victoria Acosta García | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-white text-stone-700 antialiased">
+
+  <!-- Navegación -->
+  <header class="sticky top-0 z-10 bg-white/80 backdrop-blur border-b border-pink-100">
+    <nav class="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+      <span class="font-semibold text-pink-400 tracking-wide">Victoria A.</span>
+      <ul class="flex gap-6 text-sm">
+        <li><a href="#sobre-mi" class="hover:text-pink-400 transition">Sobre mí</a></li>
+        <li><a href="#habilidades" class="hover:text-pink-400 transition">Habilidades</a></li>
+        <li><a href="#objetivos" class="hover:text-pink-400 transition">Objetivos</a></li>
+        <li><a href="#contacto" class="hover:text-pink-400 transition">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6">
+
+    <!-- Hero -->
+    <section class="min-h-[70vh] flex flex-col justify-center py-20">
+      <p class="text-pink-300 text-sm uppercase tracking-[0.3em] mb-4">Portfolio</p>
+      <h1 class="text-4xl md:text-6xl font-light text-stone-800 leading-tight">
+        Victoria Acosta <span class="font-semibold text-pink-400">García</span>
+      </h1>
+      <p class="mt-6 text-lg text-stone-500 max-w-xl leading-relaxed">
+        Desarrolladora en formación, curiosa por el origen de las cosas y con interés en
+        backend, arquitectura de software y ciberseguridad.
+      </p>
+      <div class="mt-10">
+        <a href="#contacto"
+           class="inline-block px-6 py-3 rounded-full bg-pink-200 text-stone-800 text-sm font-medium hover:bg-pink-300 transition">
+          Hablemos
+        </a>
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="py-16 border-t border-pink-100">
+      <h2 class="text-sm uppercase tracking-[0.3em] text-pink-300 mb-8">Sobre mí</h2>
+      <div class="grid md:grid-cols-2 gap-10 text-stone-600 leading-relaxed">
+        <p>
+          Me apasiona la programación porque es un campo complejo que siempre tiene algo nuevo
+          por entender. Me gusta ir al origen de las cosas: saber por qué existe una tecnología,
+          qué problema resolvió y cómo llegó a ser lo que es hoy.
+        </p>
+        <p>
+          Aprendo con rapidez y disfruto escuchar, analizar y luego aplicar lo aprendido.
+          También me gusta explicar temas que domino, y puedo aportar ideas útiles a un equipo de trabajo.
+        </p>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="py-16 border-t border-pink-100">
+      <h2 class="text-sm uppercase tracking-[0.3em] text-pink-300 mb-8">Habilidades</h2>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <!-- Actuales -->
+        <div class="p-8 rounded-2xl bg-pink-50 border border-pink-100">
+          <h3 class="text-stone-800 font-medium mb-5">Actuales</h3>
+          <ul class="space-y-3">
+            <li class="flex items-center justify-between">
+              <span>HTML</span><span class="text-xs text-pink-400">Intermedio</span>
+            </li>
+            <li class="flex items-center justify-between">
+              <span>CSS</span><span class="text-xs text-pink-400">Intermedio</span>
+            </li>
+            <li class="flex items-center justify-between">
+              <span>Python</span><span class="text-xs text-pink-400">Básico</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- En aprendizaje -->
+        <div class="p-8 rounded-2xl bg-white border border-pink-100">
+          <h3 class="text-stone-800 font-medium mb-5">En aprendizaje</h3>
+          <ul class="space-y-3">
+            <li class="flex items-center justify-between">
+              <span>Backend</span><span class="text-xs text-stone-400">En progreso</span>
+            </li>
+            <li class="flex items-center justify-between">
+              <span>Arquitectura de software</span><span class="text-xs text-stone-400">En progreso</span>
+            </li>
+            <li class="flex items-center justify-between">
+              <span>Ciberseguridad</span><span class="text-xs text-stone-400">En progreso</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Objetivos -->
+    <section id="objetivos" class="py-16 border-t border-pink-100">
+      <h2 class="text-sm uppercase tracking-[0.3em] text-pink-300 mb-8">Objetivos</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-2xl border border-pink-100">
+          <p class="text-pink-400 text-2xl mb-3">01</p>
+          <h3 class="font-medium text-stone-800 mb-2">Backend</h3>
+          <p class="text-sm text-stone-500 leading-relaxed">Construir APIs y lógica de servidor sólidas y bien organizadas.</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-pink-100">
+          <p class="text-pink-400 text-2xl mb-3">02</p>
+          <h3 class="font-medium text-stone-800 mb-2">Arquitectura</h3>
+          <p class="text-sm text-stone-500 leading-relaxed">Diseñar sistemas escalables, mantenibles y fáciles de entender.</p>
+        </div>
+        <div class="p-6 rounded-2xl border border-pink-100">
+          <p class="text-pink-400 text-2xl mb-3">03</p>
+          <h3 class="font-medium text-stone-800 mb-2">Ciberseguridad</h3>
+          <p class="text-sm text-stone-500 leading-relaxed">Proteger aplicaciones y datos desde el diseño, no como añadido final.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fortalezas -->
+    <section class="py-16 border-t border-pink-100">
+      <h2 class="text-sm uppercase tracking-[0.3em] text-pink-300 mb-8">Fortalezas</h2>
+      <div class="flex flex-wrap gap-3">
+        <span class="px-4 py-2 rounded-full bg-pink-50 text-sm text-stone-600">Escucha activa</span>
+        <span class="px-4 py-2 rounded-full bg-pink-50 text-sm text-stone-600">Aprendizaje rápido</span>
+        <span class="px-4 py-2 rounded-full bg-pink-50 text-sm text-stone-600">Explicar con claridad</span>
+        <span class="px-4 py-2 rounded-full bg-pink-50 text-sm text-stone-600">Ideas para el equipo</span>
+        <span class="px-4 py-2 rounded-full bg-pink-50 text-sm text-stone-600">Curiosidad por el origen</span>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-20 border-t border-pink-100 text-center">
+      <h2 class="text-sm uppercase tracking-[0.3em] text-pink-300 mb-6">Contacto</h2>
+      <p class="text-stone-500 mb-8">¿Quieres conversar sobre programación o proyectos?</p>
+      <a href="mailto:victoria.acosta.garcia2006@gmail.com"
+         class="inline-block px-6 py-3 rounded-full border border-pink-300 text-pink-400 text-sm font-medium hover:bg-pink-50 transition">
+        victoria.acosta.garcia2006@gmail.com
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="py-8 text-center text-xs text-stone-400 border-t border-pink-100">
+    © 2026 Victoria Acosta García
+  </footer>
+
+</body>
+</html>
